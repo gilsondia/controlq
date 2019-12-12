@@ -44,8 +44,10 @@ $ pipenv install -d
 ##### API documentation.
 There is swagger and redocs as options.
 
-http://127.0.0.1:8000/swagger/
-http://127.0.0.1:8000/redoc/
+
+[swagger api doc] http://127.0.0.1:8000/swagger/
+
+[redoc api doc] http://127.0.0.1:8000/redoc/
 
 ###### Run Migrations and start Django.
  Once your dependencies are sorted run the command
