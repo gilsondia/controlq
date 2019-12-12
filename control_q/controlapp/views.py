@@ -47,6 +47,8 @@ class ControlViewSet(LookupUuidView, viewsets.ModelViewSet):
         end-point to import the controls file, the binary csf file parameter that is expecting if 'file'
 
         the end-point /template can provide a example of the CSV filet that this end-point is expecting.
+
+        This import does not update items, and the column uuid needs to be empty in order to import safely.
         :param request:
         :param args:
         :param kwargs:
