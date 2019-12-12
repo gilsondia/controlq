@@ -33,16 +33,19 @@ class Control(models.Model):
     type = models.CharField(
         max_length=8,
         choices=CONTROL_TYPE_CHOICES,
+        help_text="type of control "
     )
 
     rabi_rate = models.IntegerField(
         default=0,
-        validators=[MaxValueValidator(100), MinValueValidator(0)]
+        validators=[MaxValueValidator(100), MinValueValidator(0)],
+        help_text="Integer in range between 0 and 100"
      )
 
     polar_angle = models.DecimalField(
         default=0,
         validators=[MaxValueValidator(1), MinValueValidator(0)],
         decimal_places=10,
-        max_digits=11
+        max_digits=11,
+        help_text="Decimal Field in range between 0 and 1"
     )

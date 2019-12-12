@@ -1,8 +1,8 @@
 [packages]
 django = "~=3.0.0"
 djangorestframework = "~=3.10.2"
-docutils = "~=0.15.2"
 django-import-export = "~=2.0"
+drf-yasg = "*"
 
 [requires]
 python_version = "3.6.9"

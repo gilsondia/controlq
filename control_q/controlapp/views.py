@@ -27,6 +27,7 @@ class LookupUuidView(object):
 class ControlViewSet(LookupUuidView, viewsets.ModelViewSet):
     """
     A viewset for viewing and editing Control instances.
+
     """
     pagination_class = LimitOffsetPagination
     serializer_class = ControlSerializer
@@ -40,6 +41,17 @@ class ControlViewSet(LookupUuidView, viewsets.ModelViewSet):
         parser_classes=(MultiPartParser,),
     )
     def control_import(self, request, *args, **kwargs):
+        """
+        /import/
+
+        end-point to import the controls file, the binary csf file parameter that is expecting if 'file'
+
+        the end-point /template can provide a example of the CSV filet that this end-point is expecting.
+        :param request:
+        :param args:
+        :param kwargs:
+        :return:
+        """
         control_resource = ControlResource()
         dataset = Dataset(headers=["uuid", "name", "type", "rabi_rate", "polar_angle"])
         new_controls = request.data.get("file")
@@ -59,6 +71,18 @@ class ControlViewSet(LookupUuidView, viewsets.ModelViewSet):
 
     @action(detail=False, methods=["get"], url_path="export", url_name="export")
     def control_export(self, request, *args, **kwargs):
+        """
+        /export/
+
+        end-point to export the whole list of controls.
+        im case of long list with more than 65000(or a bit more) rows, microsoft excell cannot open it.
+
+        :param request:
+        :param args:
+        :param kwargs:
+        :return: CSV file with all controls.
+        """
+
         control_resource = ControlResource()
         dataset = control_resource.export()
         response = HttpResponse(dataset.csv, content_type='text/csv')
@@ -67,6 +91,15 @@ class ControlViewSet(LookupUuidView, viewsets.ModelViewSet):
 
     @action(detail=False, methods=["get"], url_path="template", url_name="template")
     def get_cvs_template(self, request, *args, **kwargs):
+        """
+        /template
+
+        end-point that return an CSV template file with headers and 10 blank rows.
+        :param request:
+        :param args:
+        :param kwargs:
+        :return: CSV file
+        """
         response = HttpResponse(content_type='text/csv')
 
         csv_file_name = "template_controls.csv"
