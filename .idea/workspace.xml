@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c262790-4917-41d3-b862-a45a5a2326e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control_q/control_q/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_q/control_q/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control_q/control_q/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_q/control_q/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/control_q/controlapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_q/controlapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control_q/controlapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_q/controlapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control_q/controlapp/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_q/controlapp/resources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control_q/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/control_q/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control_q/controlapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="261">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -33,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/control_q/controlapp/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -41,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/control_q/controlapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="551">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -56,8 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control_q/controlapp/resources.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="566">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,12 +137,12 @@
         <option value="$PROJECT_DIR$/control_q/control_app/views.py" />
         <option value="$PROJECT_DIR$/control_q/controlapp/urls.py" />
         <option value="$PROJECT_DIR$/control_q/controlapp/serializers.py" />
-        <option value="$PROJECT_DIR$/control_q/controlapp/resources.py" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/control_q/control_q/settings.py" />
         <option value="$PROJECT_DIR$/control_q/control_q/urls.py" />
-        <option value="$PROJECT_DIR$/control_q/controlapp/views.py" />
         <option value="$PROJECT_DIR$/control_q/controlapp/models.py" />
+        <option value="$PROJECT_DIR$/control_q/controlapp/resources.py" />
+        <option value="$PROJECT_DIR$/control_q/controlapp/views.py" />
       </list>
     </option>
   </component>
@@ -158,8 +158,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -198,6 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/control_q/controlapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -233,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576051730437</updated>
-      <workItem from="1576051733712" duration="19318000" />
+      <workItem from="1576051733712" duration="23324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19318000" />
+    <option name="totallyTimeSpent" value="23324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -316,13 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control_q/controlapp/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -347,32 +342,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/control_q/controlapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/control_q/controlapp/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control_q/controlapp/views.py">
+    <entry file="file://$PROJECT_DIR$/control_q/controlapp/resources.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control_q/controlapp/models.py">
+    <entry file="file://$PROJECT_DIR$/control_q/controlapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="551">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

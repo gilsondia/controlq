@@ -24,7 +24,7 @@ class Control(models.Model):
         (ControlType.CINSK, "CinSK"),
     )
 
-    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False, unique=True)
 
     name = models.CharField(
         max_length=32, help_text="The name of the control (e.g. “Single-Qubit Driven Control”)."
