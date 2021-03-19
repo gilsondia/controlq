@@ -1,6 +1,6 @@
 [packages]
 django = "~=3.0.0"
-djangorestframework = "~=3.10.2"
+djangorestframework = "~=3.11.2"
 django-import-export = "~=2.0"
 drf-yasg = "*"
 
